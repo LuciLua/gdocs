@@ -4,14 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "devStart": "nodemon server.js"
+    "devStart": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "socket.io": "^4.0.1",
-    "socket.io-client": "^4.0.1"
+    "mongoose": "^5.12.7",
+    "socket.io": "^4.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
